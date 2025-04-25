@@ -1,0 +1,33 @@
+.agendamento {
+  padding: 40px;
+  background-color: #fafafa;
+  text-align: center;
+}
+
+.agendamento form {
+  max-width: 400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.agendamento input,
+.agendamento textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.agendamento button {
+  background-color: #000;
+  color: #fff;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.agendamento button:hover {
+  background-color: #333;
+}
